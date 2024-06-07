@@ -1,0 +1,7 @@
+spring:
+  config:
+    import:
+      - classpath:/application-s3.yml
+  profiles:
+    active: local
+    include: core
